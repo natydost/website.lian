@@ -1,0 +1,155 @@
+/* Moderní box model - nastavená šířka boxu je včetně paddingu a borderu */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000000;
+    background-color: #0099CC;
+  }
+  
+  h1,
+  {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 80px;
+    text-align: center;
+    color: #2D2926FF;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  
+  nav{
+    color: chartreuse;
+    font-style: italic;
+  
+  }
+  
+  nav {
+    color: chartreuse;
+  }
+  
+  
+  
+  
+  
+  /* Patička */
+  .paticka {
+    padding: 0px ;
+    text-align: center;
+    background-color: #0099CC;
+    color: white;
+  }
+  
+  
+  /* Hlavička */
+  .hlavicka {
+      padding: 150px 30px;
+      background-color: #0099CC ;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  
+  
+  
+  /* Hlavní menu */
+  .menu {
+    margin: 0;
+    
+    padding: 0px;
+    text-align: center;
+    color: #E94B3CFF;
+    background-color: #0099CC;
+    border-top: 1px solid #9c8175;
+    font-family:'PT Sans', sans-serif;
+  }
+  
+  .menu button {
+    display: inline-block;
+    width: 500px;
+    font-family: "PT Sans", sans-serif;
+    padding: 30px 30px;
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+    background-color: #66CCFF;
+  }
+  
+   .menu button:hover {
+    background-color: #003399;
+  }
+  
+  .obrazek {
+    width: 300px;
+    height: 300px;
+  }
+  /*anglictina*/
+  
+  .preklady .anglickytlacitko{
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 1600px;
+    margin-top: 1px;
+    font-family:  'Raleway', sans-serif;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+    padding: 17px 17px;
+    font-size: 15px;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+    background-color: #66CCFF;
+    background-image:url(obrazky/vlajka.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+  
+  
+   .preklady button:hover {
+    background-color: #003399;
+  }
+  
+  /*čestina*/
+  
+  .preklady  .ceskytlacitko {
+    display: inline-block;
+    border: none;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 1px;
+    font-family:  'Raleway', sans-serif;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+    padding: 17px 17px;
+    font-size: 15px;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+    background-color: #66CCFF;
+    background-image:url(obrazky/vlajkacs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+  
+  
+   .preklady button:hover {
+    background-color: #003399;
+  }
+  
+  
