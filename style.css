@@ -28,10 +28,10 @@ html {
     margin: 0;
     font-size: 80px;
     text-align: center;
-    color: #2D2926FF;
-    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
-  }
+    color: #2D2926FF;0px 3px 10px rgba(255, 255, 255, 0.7);
   
+    text-shadow: 0px 3px 10px rgba(255, 255, 255, 0.7);
+}
   
   nav{
     color: chartreuse;
